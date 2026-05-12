@@ -71,7 +71,9 @@ button {
 .eyebrow.gold {
   color: var(--gold);
 }
-
+#navbar {
+  display: none;
+}
 .nav-static {
   position: absolute;
   left: 50%;
