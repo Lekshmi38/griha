@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Sree Padmam Griha Pravesam</title>
+  <desc id="desc">Open graph preview image for a South Indian Griha Pravesam invitation.</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="48%" r="60%">
+      <stop offset="0%" stop-color="#C8A96B" stop-opacity=".42"/>
+      <stop offset="55%" stop-color="#1F3A32" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#121B17"/>
+    </radialGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#C8A96B" opacity=".35"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#1F3A32"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect width="1200" height="630" fill="url(#dots)" opacity=".45"/>
+  <rect x="52" y="52" width="1096" height="526" rx="18" fill="none" stroke="#C8A96B" stroke-width="3"/>
+  <path d="M663 112c-38-64-142-68-204-13-57 51-55 147 8 190 45 30 113 17 126-40 12-50-45-95-88-57-45 39-18 113 51 145 83 38 174-8 199-88 25-82-22-158-109-184" fill="none" stroke="#C8A96B" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" opacity=".22"/>
+  <text x="600" y="205" fill="#C8A96B" font-family="Georgia, serif" font-size="42" text-anchor="middle">Om | Ganapathy Thunai</text>
+  <text x="600" y="320" fill="#F8F4EC" font-family="Georgia, serif" font-size="92" font-weight="700" text-anchor="middle">Griha Pravesam</text>
+  <text x="600" y="392" fill="#F8F4EC" font-family="Arial, sans-serif" font-size="28" letter-spacing="7" text-anchor="middle">SREE PADMAM</text>
+  <text x="600" y="462" fill="#C8A96B" font-family="Georgia, serif" font-size="40" text-anchor="middle">18 January 2027</text>
+</svg>

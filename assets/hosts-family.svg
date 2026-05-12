@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Host family portrait placeholder</title>
+  <desc id="desc">An elegant framed family portrait placeholder for the hosts.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8F4EC"/>
+      <stop offset=".52" stop-color="#E7D9BF"/>
+      <stop offset="1" stop-color="#1F3A32"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="55%">
+      <stop offset="0" stop-color="#C8A96B" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#C8A96B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <rect width="900" height="1100" fill="url(#glow)"/>
+  <g opacity=".22" fill="none" stroke="#C8A96B" stroke-width="3">
+    <circle cx="450" cy="438" r="230"/>
+    <circle cx="450" cy="438" r="292"/>
+    <path d="M158 180h584M158 920h584"/>
+  </g>
+  <g fill="#1F3A32" opacity=".9">
+    <circle cx="344" cy="390" r="78"/>
+    <circle cx="548" cy="390" r="78"/>
+    <circle cx="450" cy="510" r="64"/>
+    <path d="M188 760c18-159 113-244 204-244 74 0 128 36 158 98 32-62 86-98 158-98 91 0 186 85 204 244H188z" transform="translate(-100 0)"/>
+    <path d="M320 800c18-119 72-182 130-182s112 63 130 182H320z"/>
+  </g>
+  <g fill="#C8A96B">
+    <circle cx="286" cy="300" r="7"/>
+    <circle cx="614" cy="300" r="7"/>
+    <circle cx="450" cy="248" r="7"/>
+    <path d="M450 264c-56 0-102 16-137 48 12-60 62-102 137-102s125 42 137 102c-35-32-81-48-137-48z" opacity=".72"/>
+  </g>
+  <text x="450" y="965" fill="#F8F4EC" font-family="Georgia, serif" font-size="46" text-anchor="middle">The Narayanan Family</text>
+  <text x="450" y="1018" fill="#C8A96B" font-family="Arial, sans-serif" font-size="18" letter-spacing="6" text-anchor="middle">HOSTS</text>
+</svg>
