@@ -1,8 +1,8 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>Griha Pravesam Ceremony | Sree Padmam</title>
     <meta
       name="description"
@@ -58,6 +58,28 @@
         },
       };
     </script>
+    <style>
+      /* MINIMAL FIX: Only prevent horizontal scroll & fix hero cropping - no layout/font changes */
+      html, body {
+        overflow-x: hidden !important;
+        width: 100%;
+        max-width: 100%;
+      }
+      * {
+        max-width: 100%;
+      }
+      .hero {
+        overflow-x: hidden;
+      }
+      .hero-watermark {
+        overflow: hidden;
+      }
+      @media (max-width: 768px) {
+        .hero-watermark svg {
+          max-width: 180px;
+        }
+      }
+    </style>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
